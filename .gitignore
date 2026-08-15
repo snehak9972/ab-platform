@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated artifacts (reproducible via `ab-platform simulate` / `analyze`)
+data/*.csv
+data/*.db
+reports/*.png
+reports/*.json
+
+.DS_Store
+.vscode/
+.idea/
